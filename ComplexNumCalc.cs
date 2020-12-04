@@ -7,7 +7,7 @@ using System.Numerics;
 
 namespace Complexcalc
 {
-    class ComplexNumCalc
+    public class ComplexNumCalc : IComplexNumCalc
     {
         protected Complex a;
         protected Complex b;
@@ -20,11 +20,7 @@ namespace Complexcalc
 
         public string Compare()
         {
-            if (this.a.Equals(this.b))
-            {
-                return "=";
-            }
-            else if (this.a.Magnitude > this.b.Magnitude)
+            if (this.a.Magnitude > this.b.Magnitude)
             {
                 return ">";
             }
@@ -32,7 +28,7 @@ namespace Complexcalc
             {
                 return "<";
             }
-            return "Infinity";
+             return "=";
         }
 
         public Complex Add() 
@@ -42,15 +38,18 @@ namespace Complexcalc
 
         public Complex Multiply()
         {
-            return Complex.Multiply(this.a, this.b);
+            Complex res = Complex.Multiply(this.a, this.b);
+            return new Complex(Math.Round(res.Real, 15), Math.Round(res.Imaginary, 15));
         }
         public Complex Divide()
         {
-            return Complex.Divide(this.a, this.b);
+            Complex res = Complex.Divide(this.a, this.b);
+            return new Complex(Math.Round(res.Real, 15), Math.Round(res.Imaginary, 15));
         }
         public Complex Subtract()
         {
-            return Complex.Subtract(this.a, this.b);
+            Complex res = Complex.Subtract(this.a, this.b);
+            return new Complex(Math.Round(res.Real,15), Math.Round(res.Imaginary, 15));
         }
     }
 }

@@ -5,3 +5,11 @@ C:\Users\User\source\repos\Complexcalc\obj\Debug\Complexcalc.UserControl1.resour
 C:\Users\User\source\repos\Complexcalc\obj\Debug\Complexcalc.csproj.GenerateResource.cache
 C:\Users\User\source\repos\Complexcalc\obj\Debug\Complexcalc.dll
 C:\Users\User\source\repos\Complexcalc\obj\Debug\Complexcalc.pdb
+C:\Users\user\source\repos\TestsLab\obj\Debug\Complexcalc.csprojAssemblyReference.cache
+C:\Users\user\source\repos\TestsLab\obj\Debug\Complexcalc.Properties.Resources.resources
+C:\Users\user\source\repos\TestsLab\obj\Debug\Complexcalc.UserControl1.resources
+C:\Users\user\source\repos\TestsLab\obj\Debug\Complexcalc.csproj.GenerateResource.cache
+C:\Users\user\source\repos\TestsLab\bin\Debug\Complexcalc.dll
+C:\Users\user\source\repos\TestsLab\bin\Debug\Complexcalc.pdb
+C:\Users\user\source\repos\TestsLab\obj\Debug\Complexcalc.dll
+C:\Users\user\source\repos\TestsLab\obj\Debug\Complexcalc.pdb

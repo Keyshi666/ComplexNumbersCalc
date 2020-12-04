@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complexcalc", "Complexcalc.csproj", "{367A6F93-703D-40BD-BA46-6FB481F210A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumCalcTest", "..\NumCalcTest\NumCalcTest.csproj", "{D97CD7E7-501C-4066-B66C-C81F678B8FF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{367A6F93-703D-40BD-BA46-6FB481F210A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{367A6F93-703D-40BD-BA46-6FB481F210A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{367A6F93-703D-40BD-BA46-6FB481F210A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97CD7E7-501C-4066-B66C-C81F678B8FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97CD7E7-501C-4066-B66C-C81F678B8FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97CD7E7-501C-4066-B66C-C81F678B8FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97CD7E7-501C-4066-B66C-C81F678B8FF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
